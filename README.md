@@ -4,7 +4,7 @@
 
 This study focuses on the use of VIIRS Nighttime Light (NTL) data to predict GDP and energy consumption. It analyzes satellite light intensity values from 2013 to 2023, including median, masked median, minimum, and maximum. We apply machine learning models to identify the correlation between NTL features and economic indicators. Our results highlight the potential of NTL for estimating and forecasting GDP and energy consumption, especially in data-scarce environments.
 
----
+
 
 ## Introduction
 
@@ -14,7 +14,7 @@ With advancements in remote sensing, satellites have been collecting Nighttime L
 
 This paper aims to leverage regression and time series models using VIIRS-derived NTL data to estimate GDP and energy consumption. The core objective is to demonstrate that satellite-derived light intensity correlates positively with economic metrics and can be effectively used for forecasting, especially in low-resource or developing regions.
 
----
+
 
 ## Data and Preprocessing
 
@@ -53,7 +53,7 @@ This paper aims to leverage regression and time series models using VIIRS-derive
 - 80/20 split using temporal order  
   (Training on 2013–2020, Testing on 2021–2023)
 
----
+
 
 ## Results and Discussion
 
@@ -73,7 +73,7 @@ This paper aims to leverage regression and time series models using VIIRS-derive
 - **RMSE**: Reduced significantly after using log-transformed GDP  
 - **Insights**: Strongest predictors were masked median and maximum light intensity values. The model showed improved performance in regions with stable annual light patterns.
 
----
+
 
 ### Energy Consumption Prediction
 
@@ -82,7 +82,7 @@ This paper aims to leverage regression and time series models using VIIRS-derive
 - **RMSE**: Lower in industrialized nations compared to rural ones  
 - **Insights**: Median and minimum NTL values correlated strongly with electricity usage. Incorporating lag features improved the temporal prediction accuracy.
 
----
+
 
 ### Time Series Forecasting (LSTM)
 
@@ -93,7 +93,7 @@ This paper aims to leverage regression and time series models using VIIRS-derive
 
 
 
----
+
 
 ## License
 
