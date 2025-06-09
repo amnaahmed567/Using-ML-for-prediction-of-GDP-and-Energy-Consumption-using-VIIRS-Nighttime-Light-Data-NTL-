@@ -93,8 +93,3 @@ This paper aims to leverage regression and time series models using VIIRS-derive
 
 
 
-
-
-## License
-
-This project is for research purposes only. License terms may apply depending on the datasets used (e.g., VIIRS and World Bank data).
